@@ -1,14 +1,15 @@
 body {
-  background:rgb(180, 135, 135) ;
+  background:rgb(227, 216, 216) ;
   font-family: "Segoe UI", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  min-height: 90vh;
 }
 
 .calculator {
-  width: 300px;
+  width: 90%;
+  max-width: 300px;
   background: rgb(225, 202, 202);
   padding: 30px;
   border-radius: 10px;
